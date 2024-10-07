@@ -41,10 +41,12 @@ interface ComponentProps {
   throttleCount: number;
 }
 
-const Component = ({ normalCount, debounceCount, throttleCount }:ComponentProps) => {
+const Component = ({ normalCount, debounceCount, throttleCount }: ComponentProps) => {
   return (
-    <div className="w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2 h-96 top-10 sticky bg-white shadow-lg rounded-lg p-8 flex flex-col items-center">
-      <h1 className="text-center text-cyan-500 font-bold text-2xl md:text-3xl lg:text-4xl pt-4 mb-8">
+    <div className="w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2 h-96 top-10 sticky 
+    bg-white shadow-lg rounded-lg p-8 flex flex-col items-center">
+      <h1 className="text-center text-cyan-500 font-bold text-2xl md:text-3xl 
+      lg:text-4xl pt-4 mb-8">
         Practical Demo of Debouncing and Throttling Compared to Normal Method
       </h1>
       <div className="flex flex-col items-center space-y-4">

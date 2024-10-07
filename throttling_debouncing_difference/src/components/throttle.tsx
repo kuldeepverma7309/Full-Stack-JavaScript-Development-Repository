@@ -9,6 +9,5 @@ const throttleMethod = (setThrottleCount: React.Dispatch<React.SetStateAction<nu
         }, 1000);
     }
 }
-
 export default throttleMethod
 
