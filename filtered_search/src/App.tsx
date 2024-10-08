@@ -12,38 +12,18 @@ const App: React.FC = () => {
   const data: DataItem[] = [
     {
       id: 1,
-      name: 'John Doe',
-      age: 25
-    },
-    {
-      id: 2,
-      name: 'Jane Jones',
-      age: 30
-    },
-    {
-      id: 3,
-      name: 'John Smith',
-      age: 35
-    },
-    {
-      id: 4,
-      name: 'Smith Das',
-      age: 40,
-    },
-    {
-      id: 5,
-      name: 'Ram',
-      age: 45
-    },
-    {
-      id: 6,
-      name: 'Kuldeep',
+      name: 'Kuldeep Verma',
       age: 21,
     },
     {
-      id: 7,
-      name: 'Rahul',
+      id: 2,
+      name: 'Alok Kumar Yadav',
       age: 22
+    },
+    {
+      id: 3,
+      name: 'Nitish Singh',
+      age: 20,
     }
   ];
 
